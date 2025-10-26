@@ -60,6 +60,20 @@
           "buildTarget": "user-service:build:production"
         }
       }
+    },
+    "db:migrate": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx drizzle-kit migrate",
+        "cwd": "apps/user-service"
+      }
+    },
+    "db:generate": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx drizzle-kit generate",
+        "cwd": "apps/user-service"
+      }
     }
   }
 }
