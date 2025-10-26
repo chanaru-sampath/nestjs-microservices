@@ -1,0 +1,11 @@
+{
+  "cSpell.words": ["Suwadha"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.useEditorConfig": false,
+  "prettier.configPath": ".prettierrc",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+    "source.fixAll.eslint": "explicit"
+  }
+}
